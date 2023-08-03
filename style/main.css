@@ -1,0 +1,25 @@
+footer {
+    font-style: italic;
+    height: 200px;
+}
+
+.accordion-button {
+    font-size: inherit;
+    color: #0D6EFD;
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: #0D6EFD;
+    color: #FFFFFF;
+}
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+.accordion-body {
+    background-color: #212529;
+    color: #FFFFFF;
+}
